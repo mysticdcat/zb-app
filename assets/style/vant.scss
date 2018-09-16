@@ -1,0 +1,8 @@
+@import "~@/assets/style/px-to-rem";
+.van-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  bottom: tr(100px);
+}

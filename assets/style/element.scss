@@ -1,0 +1,70 @@
+/* 五星评价css自定义修改 */
+
+@function tr($px, $base-size: 75px) {
+	@return ($px / $base-size) * 1rem;
+}
+
+.el-rate {
+	height: auto !important;
+	line-height: auto !important;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+}
+
+span.el-rate__item {
+	width: tr(26px) !important;
+}
+
+.el-rate__icon {
+	font-size: tr(26px) !important;
+	margin-right: 0px !important;
+}
+
+.el-rate__text {
+	margin-left: tr(4px) !important;
+	font-size: tr(28px) !important;
+	vertical-align: middle;
+}
+
+.el-tabs__nav {
+	width: 100% !important;
+	#tab-first {
+        padding: 0!important;
+        text-align: center;
+		width: 33% !important;
+	}
+	#tab-second {
+        padding: 0!important;
+        text-align: center;
+		width: 33% !important;
+	}
+	#tab-third {
+        padding: 0!important;
+        text-align: center;
+		width: 33% !important;
+    }
+    
+}
+.el-tabs__nav-wrap::after {
+    padding-left: 30px;
+}
+.el-rate__item {
+    display: inline-block;
+    width: tr(32px)!important;
+    height: tr(32px)!important;
+    margin-right: tr(20px);
+    i {
+        width: 100%!important;
+        height: 100%!important;
+    }
+}
+.van-nav-bar__title {
+    position:static!important;
+}
+.el-tabs__header {
+    margin: 0!important;
+}
+
+
+

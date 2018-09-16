@@ -1,0 +1,15 @@
+@import "~@/assets/style/px-to-rem";
+// 轮播图 分页器css
+.van-swipe__indicator{
+  border-radius: tr(5px);
+  background-color: #fff;
+  width: tr(10px);
+  height: tr(10px);
+}
+
+.van-swipe__indicator--active{
+  border-radius: tr(5px);
+  background-color: #B746F9;
+  width: tr(20px);
+  height: tr(10px);
+}

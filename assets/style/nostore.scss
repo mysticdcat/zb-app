@@ -1,0 +1,21 @@
+@import "~@/assets/style/px-to-rem";
+.noStore {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  // transform: translate(-50%, -50%);
+  img {
+    width: tr(210px);
+    height: tr(168px);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  p {
+    color: RGBA(153, 153, 153, 1);
+    font-size: tr(24px);
+    text-align: center;
+    margin-top: tr(20px);
+  }
+}
